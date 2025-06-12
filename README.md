@@ -1,9 +1,9 @@
 
-https://github.com/user-attachments/assets/ebd7faa3-70b6-4200-9ea4-ded7d260cd25
 # Smol-VLM2_video
 
 
-Prompt 
+##Prompt 
+
 """
 You are analyzing a driving video from the perspective of the vehicle recording the video (the ego vehicle).
 In 2-3 short factual sentences, state:
@@ -16,6 +16,9 @@ In 2-3 short factual sentences, state:
 -Visibility.
 Do not describe the appearance or aesthetics. Be concise.
 """
+
+## Config
+
 nvidia 4070 super 
 HuggingFaceTB/SmolVLM2-256M-Video-Instruct: 4.4s/iteration
 HuggingFaceTB/SmolVLM2-500M-Video-Instruct: 4.6s/iteration
@@ -25,7 +28,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct: 5.3s/iteration
 
 
 
-
+## Result 1
 
 https://github.com/user-attachments/assets/0ceb14b5-2623-48cf-b06d-f22f4e3417f6
 
@@ -41,6 +44,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct
 Assistant: The ego vehicle is driving on a dark street at night, passing other vehicles, including cars and trucks. The road conditions are wet, and the visibility is low due to the darkness and rain. There are no pedestrians or cyclists visible in the video. The static obstacles are traffic lights, which are red, indicating that the vehicles must stop.
 
 
+## Result 2
 
 
 
@@ -57,6 +61,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct
 Assistant: The ego vehicle is driving on a city street at night, passing other vehicles, including cars and trucks. The vehicle is stopped at a red light, and the surrounding environment includes parked cars, pedestrians, and a bus. The road conditions are wet, and the visibility is low due to the darkness and the presence of streetlights.
 
 
+## Result 3
 
 
 
@@ -73,6 +78,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct
 Assistant: The ego vehicle is driving on a city street, passing other vehicles including cars and trucks. Pedestrians are present on the sidewalk, and there are traffic lights at intersections. The road conditions are clear, and the weather is sunny. The visibility is good, and the ego vehicle is driving in the right lane.
 
 
+## Result 4
 
 
 
@@ -89,6 +95,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct
 Assistant: The ego vehicle is driving on a city street, passing by other vehicles including cars and trucks. The vehicle is stopped at a red traffic light, and there are pedestrians visible on the sidewalk. The road conditions are good, with clear visibility and no visible obstacles. The weather is clear with a blue sky.
 
 
+## Result 5
 
 
 
@@ -105,6 +112,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct
 Assistant: The ego vehicle is driving on a city street, passing by other vehicles, including cars and trucks. There are pedestrians walking on the sidewalk and cyclists riding on the road. The weather is clear with a blue sky, and the road conditions are good with no visible potholes or debris. The visibility is good, and the ego vehicle is driving at a moderate speed.
 
 
+## Result 6
 
 
 
@@ -121,7 +129,7 @@ HuggingFaceTB/SmolVLM2-2.2B-Instruct
 Assistant: The ego vehicle is driving on a city street with other vehicles, including cars and trucks. The vehicle is stopped at a red traffic light. There are pedestrians and cyclists present, but no static obstacles. The road conditions are good, and the weather is clear. The visibility is good, and the sky is blue.
 
 
-
+## Result 7
 
 
 https://github.com/user-attachments/assets/d99a5c4a-2f9c-4220-9c04-eb49c858c4be
